@@ -1,0 +1,51 @@
+.main{
+    background-color: #ba44c7;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    margin-top: 1vh;   
+    border-radius: 20px;
+    padding: 2vh;
+    font-size: 30px;
+}
+
+.main h1 {
+    font-family: 'Helvetica';
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+
+.main.subclass {
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+    a:visited {
+      color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      } 
+      
+    a:hover {
+        color: rgb(0, 110, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    padding-bottom: 5vh;
+
+}
